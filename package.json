@@ -1,0 +1,28 @@
+{
+  "name": "atividade-02-data-hora-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API Express que informa a data e a hora atuais no fuso de Sao Paulo.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "check": "node --check src/app.js && node --check src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "data-hora",
+    "senai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

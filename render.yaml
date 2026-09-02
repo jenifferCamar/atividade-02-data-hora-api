@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: atividade-02-data-hora-api
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/saude
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: TIMEZONE
+        value: America/Sao_Paulo
+      - key: CORS_ORIGIN
+        sync: false
