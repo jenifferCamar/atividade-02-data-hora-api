@@ -1,19 +1,10 @@
 {
   "version": 2,
-  "public": true,
-  "builds": [
+  "services": [
     {
-      "src": "src/app.js",
-      "use": "@vercel/node",
-      "config": {
-        "maxLambdaSize": "50MB"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/src/app.js"
+      "name": "api",
+      "path": "src/app.js",
+      "type": "nodejs"
     }
   ]
 }
