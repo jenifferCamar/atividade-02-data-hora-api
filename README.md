@@ -1,9 +1,11 @@
 # Atividade 02 — API de data e hora
 
-Nome do projeto no GitHub e no Render: `atividade-02-data-hora-api`.
+Nome do projeto no GitHub: `atividade-02-data-hora-api`.
 
 API REST criada com Express para retornar a data e a hora atuais no fuso
 `America/Sao_Paulo`.
+
+Deploy ativo: [https://atividade-02-data-hora-api.vercel.app](https://atividade-02-data-hora-api.vercel.app)
 
 ## Executar localmente
 
@@ -43,6 +45,8 @@ npm run check
 ```
 
 ## Deploy no Render
+
+> **Nota:** A API também está deployada no Vercel. O deploy no Render é uma alternativa.
 
 1. Publique este diretório em um repositório próprio no GitHub.
 2. No Render, escolha **New > Blueprint** e conecte o repositório.
